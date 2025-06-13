@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hazavao
+
+openai:
+  api:
+    key: ${OPENAI_API_KEY:API_KEY}
+
+logging:
+  level:
+    com.example.hazavao: DEBUG
+    org.springframework.web: DEBUG
